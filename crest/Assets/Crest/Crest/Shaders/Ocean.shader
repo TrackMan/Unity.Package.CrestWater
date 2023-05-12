@@ -208,26 +208,26 @@ Shader "Crest/Ocean"
 
 			#pragma shader_feature _APPLYNORMALMAPPING_ON
 			#pragma shader_feature _COMPUTEDIRECTIONALLIGHT_ON
-			#pragma shader_feature _DIRECTIONALLIGHTVARYROUGHNESS_ON
+			//#pragma shader_feature _DIRECTIONALLIGHTVARYROUGHNESS_ON
 			#pragma shader_feature _SUBSURFACESCATTERING_ON
 			#pragma shader_feature _SUBSURFACESHALLOWCOLOUR_ON
 			#pragma shader_feature _TRANSPARENCY_ON
 			#pragma shader_feature _CAUSTICS_ON
 			#pragma shader_feature _FOAM_ON
 			#pragma shader_feature _FOAM3DLIGHTING_ON
-			#pragma shader_feature _PLANARREFLECTIONS_ON
+			//#pragma shader_feature _PLANARREFLECTIONS_ON
 			#pragma shader_feature _OVERRIDEREFLECTIONCUBEMAP_ON
 
 			#pragma shader_feature _PROCEDURALSKY_ON
-			#pragma shader_feature _UNDERWATER_ON
-			#pragma shader_feature _FLOW_ON
-			#pragma shader_feature _SHADOWS_ON
-			#pragma shader_feature _CLIPSURFACE_ON
+			//#pragma shader_feature _UNDERWATER_ON
+			//#pragma shader_feature _FLOW_ON
+			//#pragma shader_feature _SHADOWS_ON
+			//#pragma shader_feature _CLIPSURFACE_ON
 
-			#pragma shader_feature _DEBUGDISABLESHAPETEXTURES_ON
-			#pragma shader_feature _DEBUGVISUALISESHAPESAMPLE_ON
-			#pragma shader_feature _DEBUGVISUALISEFLOW_ON
-			#pragma shader_feature _DEBUGDISABLESMOOTHLOD_ON
+			//#pragma shader_feature _DEBUGDISABLESHAPETEXTURES_ON
+			//#pragma shader_feature _DEBUGVISUALISESHAPESAMPLE_ON
+			//#pragma shader_feature _DEBUGVISUALISEFLOW_ON
+			//#pragma shader_feature _DEBUGDISABLESMOOTHLOD_ON
 			#pragma shader_feature _COMPILESHADERWITHDEBUGINFO_ON
 
 			#if _COMPILESHADERWITHDEBUGINFO_ON

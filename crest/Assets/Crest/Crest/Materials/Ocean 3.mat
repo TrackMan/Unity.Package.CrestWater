@@ -7,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ocean
+  m_Name: Ocean 3
   m_Shader: {fileID: 4800000, guid: 668aecf91371c8b4997e42c0c7b19527, type: 3}
   m_ShaderKeywords: _APPLYNORMALMAPPING_ON _CAUSTICS_ON _COMPILESHADERWITHDEBUGINFO_ON
-    _COMPUTEDIRECTIONALLIGHT_ON _DEBUGMULTIPLYBYLIGHT0COLOR_ON _FLOW_ON _FOAM3DLIGHTING_ON
+    _COMPUTEDIRECTIONALLIGHT_ON _DEBUGMULTIPLYBYLIGHT0COLOR_ON _FOAM3DLIGHTING_ON
     _FOAM_ON _OVERRIDEREFLECTIONCUBEMAP_ON _PROCEDURALSKY_ON _SUBSURFACEHEIGHTLERP_ON
     _SUBSURFACESCATTERING_ON _SUBSURFACESHALLOWCOLOUR_ON _TRANSPARENCY_ON
   m_LightmapFlags: 5
@@ -35,7 +35,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normals:
-        m_Texture: {fileID: 2800000, guid: 800e061692ff7a84e887f439d3364410, type: 3}
+        m_Texture: {fileID: 2800000, guid: a53cf5449d11a15d1100a04b44295342, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ReflectionCubemapOverride:
@@ -91,7 +91,8 @@ Material:
     - _CausticsFocalDepth: 2
     - _CausticsStrength: 3.2
     - _CausticsTextureAverage: 0.07
-    - _CausticsTextureScale: 5
+    - _CausticsTextureScale: 2.1
+    - _ClipSurface: 0
     - _CompileShaderWithDebugInfo: 0
     - _ComputeDirectionalLight: 1
     - _CullMode: 2
@@ -104,7 +105,10 @@ Material:
     - _DebugVisualiseShapeSample: 0
     - _DirectionalLightBoost: 7
     - _DirectionalLightFallOff: 275
-    - _Flow: 1
+    - _DirectionalLightFallOffFar: 42
+    - _DirectionalLightFarDistance: 137
+    - _DirectionalLightVaryRoughness: 0
+    - _Flow: 0
     - _Foam: 1
     - _Foam3DLighting: 1
     - _FoamBubbleParallax: 0.1
@@ -113,10 +117,11 @@ Material:
     - _Invert: 1
     - _MipBias: 0
     - _Moving: 0.17
-    - _NormalsScale: 24.8
-    - _NormalsStrength: 1.29
+    - _NormalsScale: 78.8
+    - _NormalsStrength: 1.353
     - _Offset: 0.00008
     - _OverrideReflectionCubemap: 1
+    - _PlanarReflectionIntensity: 1
     - _PlanarReflectionNormalsStrength: 1
     - _PlanarReflections: 0
     - _ProceduralSky: 1
@@ -124,6 +129,7 @@ Material:
     - _RefractionStrength: 2
     - _RefractiveIndexOfAir: 1
     - _RefractiveIndexOfWater: 1
+    - _Roughness: 0
     - _S: 1
     - _Shadows: 0
     - _ShorelineFoamMinDepth: 0.27
@@ -167,9 +173,9 @@ Material:
     - _DiffuseShadow: {r: 0.43876824, g: 0.56427467, b: 0.6415094, a: 1}
     - _FoamBubbleColor: {r: 0.6383055, g: 0.8301887, b: 0.8243741, a: 1}
     - _FoamWhiteColor: {r: 1, g: 0.99634784, b: 0.97199994, a: 0.6862745}
-    - _SkyAwayFromSun: {r: 0.32453722, g: 0.34862876, b: 0.4811321, a: 1}
-    - _SkyBase: {r: 0.62144, g: 0.73822415, b: 0.8962264, a: 1}
-    - _SkyTowardsSun: {r: 2.6390157, g: 1.8217498, b: 0.9236555, a: 1}
+    - _SkyAwayFromSun: {r: 0.49808654, g: 0.55214715, b: 0.8584906, a: 1}
+    - _SkyBase: {r: 0.45443216, g: 0.6291471, b: 0.8679245, a: 1}
+    - _SkyTowardsSun: {r: 1.9113771, g: 2.2867384, b: 2.4264188, a: 1}
     - _SubSurface: {r: 0, g: 0.48, b: 0.36, a: 1}
     - _SubSurfaceColour: {r: 0.49434853, g: 0.54293495, b: 0.6509434, a: 1}
     - _SubSurfaceCrestColour: {r: 0.42, g: 0.69, b: 0.52, a: 1}
